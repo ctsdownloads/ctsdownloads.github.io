@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Send Us Videos With Issues</h1>
+
+
+<form
+  action="https://formspree.io/mvowqybk"
+  method="POST"
+  enctype="multipart/form-data">
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label><br/>
+    <p>Send us your video file:</p>
+    <input type="file" name="upload">
+  </label>
+
+  <h3>Please select your Operating System:</h3>
+  <input type="radio" id="Windows" name="OS" value="Windows">
+  <label for="Windows">Windows</label><br/>
+  <input type="radio" id="Mac/OS X" name="OS" value="OS X">
+  <label for="female">Mac/OS X</label><br/>
+  <input type="radio" id="other" name="OS" value="other">
+  <label for="other">Other operating system? <input type="text" name="If Other"></label>
+
+  <br/> <br/> 
+  
+<h3>What file extension is being used for your imported video?</h3>
+<p>The file extension is the last part of a file name. For example: .mp4 .mov .avi</p>
+<input type="radio" id="mp4" name="container" value="mp4">
+<label for="mp4">FileName.mp4</label><br/>
+<input type="radio" id="mov" name="container" value="mov">
+<label for="mov">FileName.mov</label><br/>
+<input type="radio" id="avi" name="container" value="avi">
+<label for="avi">FileName.avi</label><br/>
+<input type="radio" id="other" name="container" value="other">
+<label for="other"> Other file extension? <input type="text" name="If Other"></label><br/><br/>
+
+<h3>What file extension is being used for your exported video after editing?</h3>
+<p>The file extension is the last part of a file name. For example: .mp4 .mov .avi</p>
+<input type="radio" id="mp4" name="container" value="mp4">
+<label for="mp4">NewFileName.mp4</label><br/>
+<input type="radio" id="mov" name="container" value="mov">
+<label for="mp4">NewFileName.mov</label><br/>
+<input type="radio" id="avi" name="container" value="avi">
+<label for="mp4">NewFileName.avi</label><br/><br/>
+
+<h3>What video bitrate did you record the video at?</h3><br/>
+<label for="other"> If known, enter the recorded video bit rate here. <input type="text" name="video bitrate"></label><br/>If not known, leave the video bit rate box empty.<br/><br/>
+
+<h3>What audio bitrate did you record the video at?</h3><br/>
+<label for="other"> If known, enter the recorded audio bit rate here. <input type="text" name="video bitrate"></label><br/>If not known, leave the video bit rate box empty.<br/><br/>
+
+<h3>What audio sample rate did you record the video's audio at?</h3><br/>
+<label for="other"> If known, enter the recorded video's audio sample rate here. <input type="text" name="video bitrate"></label><br/>If not known, leave the video bit rate box empty.<br/><br/>
+
+<h3>What is the error or crash you're experiencing?</h3>
+<p>Select the appropriate option below.</p>
+<input type="radio" id="crash" name="crash" value="crash">
+<label for="crash">OpenShot crashes/closes.</label><br/>
+<input type="radio" id="freeze" name="crash" value="freeze">
+<label for="freeze">OpenShot freezes or is unresponsive.</label><br/>
+<input type="radio" id="slow" name="crash" value="crash">
+<label for="slow">OpenShot becomes slow or unresponsive.</label><br/><input type="radio" id="other" name="crash" value="other"><label for="doesthis">OpenShot does the following: <input type="text" name="crash" style="width: 300px;" /></label><br/><br/>
+  <button type="submit">Send Us This Form</button>
+
+</form>
+
+</body>
+</html>
